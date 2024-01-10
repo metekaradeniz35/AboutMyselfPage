@@ -1,0 +1,342 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  margin: 30px;
+  text-align: center;
+}
+
+#navbarButtons {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+#navbarButtons:hover {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #a367b1;
+  margin-left: 40px;
+  cursor: pointer;
+  transition: 0.5s color;
+}
+
+#githubButton {
+  float: right;
+  border: none;
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+}
+
+#githubButton:hover {
+  float: right;
+  border: none;
+  font-size: 30px;
+  color: #a367b1;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s color;
+}
+
+#title {
+  margin-top: 150px;
+  margin-left: 150px;
+  color: white;
+}
+
+#paragraph {
+  color: white;
+  margin-left: 150px;
+}
+
+#learnMore {
+  text-align: center;
+  margin-left: 142px;
+  height: 40px;
+  width: 170px;
+  border: 1px solid;
+  background-color: transparent;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  border-color: white;
+  border-radius: 5px;
+}
+
+#learnMore:hover {
+  text-align: center;
+  margin-left: 142px;
+  height: 40px;
+  width: 170px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: #a367b1;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.5s color;
+  border-color: #a367b1;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+#title2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#horizontal {
+  margin-top: 100px;
+  opacity: 0.3;
+  width: 1040px;
+}
+
+.displayer {
+  display: flex;
+}
+
+/** Project 1 box starting */
+
+.projectBox1 {
+  border: 1px solid;
+  width: 500px;
+  height: 300px;
+  border-color: #a367b1;
+  border-radius: 5px;
+}
+
+#projectButton1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+#projectTitle1 {
+  color: white;
+  display: inline;
+  margin-left: 115px;
+}
+
+#descp1,
+#projectParag1 {
+  margin-left: 10px;
+}
+
+#project1Button2 {
+  height: 40px;
+  width: 120px;
+  border: 1px solid;
+  background-color: transparent;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  border-color: white;
+  border-radius: 5px;
+  margin-left: 180px;
+}
+
+#project1Button2:hover {
+  margin-left: 180px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: #a367b1;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.5s color;
+  border-color: #a367b1;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+/** Project 1 box finishing */
+/** Project 2 box starting */
+
+.projectBox2 {
+  border: 1px solid;
+  width: 500px;
+  height: 300px;
+  border-color: #a367b1;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#projectButton2 {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+#projectTitle2 {
+  color: white;
+  display: inline;
+  margin-left: 115px;
+}
+
+#descp2,
+#projectParag2 {
+  margin-left: 10px;
+}
+
+#project2Button2 {
+  height: 40px;
+  width: 120px;
+  border: 1px solid;
+  background-color: transparent;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  border-color: white;
+  border-radius: 5px;
+  margin-left: 180px;
+}
+
+#project2Button2:hover {
+  margin-left: 180px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: #a367b1;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.5s color;
+  border-color: #a367b1;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+/** Project 2 finishing */
+/** Project 3 starting */
+
+.projectBox3 {
+  border: 1px solid;
+  width: 500px;
+  height: 300px;
+  border-color: #a367b1;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#projectButton3 {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+#projectTitle3 {
+  color: white;
+  display: inline;
+  margin-left: 115px;
+}
+
+#descp3,
+#projectParag3 {
+  margin-left: 10px;
+}
+
+#project3Button2 {
+  height: 40px;
+  width: 120px;
+  border: 1px solid;
+  background-color: transparent;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  border-color: white;
+  border-radius: 5px;
+  margin-left: 180px;
+}
+
+#project3Button2:hover {
+  margin-left: 180px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: #a367b1;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.5s color;
+  border-color: #a367b1;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+#horizontal2 {
+  margin-top: 100px;
+  opacity: 0.3;
+  width: 1040px;
+}
+
+/** Project 3 finishing */
+
+/** Contacts Section starting */
+.contacts-section {
+  background-color: rgb(33, 32, 32);
+  height: 300px;
+  margin-top: 100px;
+}
+
+#title3 {
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+  padding-top: 50px;
+}
+
+.buttons {
+  margin-left: 46px;
+}
+
+#instagramButton {
+  border: none;
+  background-color: transparent;
+  font-size: 35px;
+  cursor: pointer;
+  color: white;
+  margin-left: 660px;
+}
+
+#githubButton2 {
+  border: none;
+  background-color: transparent;
+  font-size: 35px;
+  cursor: pointer;
+  color: white;
+}
+
+#instagramButton:hover {
+  border: none;
+  background-color: transparent;
+  font-size: 35px;
+  cursor: pointer;
+  color: rgb(148, 12, 148);
+  margin-left: 660px;
+  transition: 0.7s color;
+}
+
+#githubButton2:hover {
+  border: none;
+  background-color: transparent;
+  font-size: 35px;
+  cursor: pointer;
+  color: rgb(148, 12, 148);
+  transition: 0.7s color;
+}
